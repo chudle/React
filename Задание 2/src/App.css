@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items : center;
+  min-width: 350px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.input_login {
+  width: calc(100% - 32px);
+  outline: none;
+  margin: 7px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #888;
+  padding: 10px;
+}
+
+.input_login:focus {
+  border: 2px solid #222;
+}
+
+.button_login {
+  width: calc(100% - 150px);
+  outline: none;
+  padding: 12px;
+  margin: 7px;
+  cursor: pointer;
+  border: none;
+  background-color: #222;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.button_login:hover {
+  background-color: #555;
+}
+
+.button_login:active {
+  background-color: #222;
+}
+
+.button_login:disabled {
+  background-color: #888;
+}
+
+.text_link {
+  color: #38B;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.text_link:hover {
+  text-decoration: underline;
+}
+
+.user_text {
+  font-size: 18px;
+  margin: 4px 2px;
+}
